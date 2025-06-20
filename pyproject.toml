@@ -1,7 +1,7 @@
 [project]
-name = "agent"
+name = "agent_crewai"
 version = "0.1.0"
-description = "agent using crewAI"
+description = "agent_crewai using crewAI"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.14"
 dependencies = [
@@ -9,11 +9,11 @@ dependencies = [
 ]
 
 [project.scripts]
-agent = "agent.main:run"
-run_crew = "agent.main:run"
-train = "agent.main:train"
-replay = "agent.main:replay"
-test = "agent.main:test"
+agent = "agent_crewai.main:run"
+run_crew = "agent_crewai.main:run"
+train = "agent_crewai.main:train"
+replay = "agent_crewai.main:replay"
+test = "agent_crewai.main:test"
 
 [build-system]
 requires = ["hatchling"]

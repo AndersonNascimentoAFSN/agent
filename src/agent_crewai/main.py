@@ -4,7 +4,7 @@ import warnings
 
 from datetime import datetime
 
-from agent.crew import Agent
+from agent_crewai.crew import Agent
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
