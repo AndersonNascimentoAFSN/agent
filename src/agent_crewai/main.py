@@ -4,7 +4,7 @@ import warnings
 
 from datetime import datetime
 
-from agent_crewai.crew import Agent
+from agent_crewai.crew import AgentCrewAI
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
@@ -23,7 +23,7 @@ def run():
     }
     
     try:
-        Agent().crew().kickoff(inputs=inputs)
+        AgentCrewAI().crew().kickoff(inputs=inputs)
     except Exception as e:
         raise Exception(f"An error occurred while running the crew: {e}")
 

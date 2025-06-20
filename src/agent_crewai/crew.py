@@ -7,7 +7,7 @@ from typing import List
 # https://docs.crewai.com/concepts/crews#example-crew-class-with-decorators
 
 @CrewBase
-class Agent():
+class AgentCrewAI():
     """Agent crew"""
 
     agents: List[BaseAgent]
